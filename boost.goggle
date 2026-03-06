@@ -1,0 +1,66 @@
+! name: Edna Boost Filter
+! description: Elevates trusted, high-quality sources in search results. Complements the Edna Family Filter (discard).
+! public: false
+! author: owuidev
+! license: MIT
+
+! Boost levels:
+!   3 = high trust (primary reference, wire services, gov/edu)
+!   2 = trusted (established outlets, major platforms)
+!   1 = mild (UGC platforms, secondary sources)
+
+! --- News: Wire services and public media ---
+$boost=3,site=apnews.com
+$boost=3,site=reuters.com
+$boost=3,site=bbc.com
+$boost=3,site=bbc.co.uk
+$boost=3,site=npr.org
+$boost=3,site=pbs.org
+
+! --- Independent journalism (reader-funded, no billionaire owner) ---
+$boost=2,site=theguardian.com
+$boost=2,site=propublica.org
+$boost=2,site=theintercept.com
+$boost=2,site=theatlantic.com
+
+! --- Health: Authoritative medical sources ---
+$boost=3,site=cdc.gov
+$boost=3,site=nih.gov
+$boost=3,site=nlm.nih.gov
+$boost=3,site=pubmed.ncbi.nlm.nih.gov
+$boost=3,site=who.int
+$boost=3,site=mayoclinic.org
+$boost=2,site=clevelandclinic.org
+$boost=2,site=webmd.com
+$boost=2,site=medlineplus.gov
+$boost=2,site=health.gov
+
+! --- Real estate: Trusted platforms for wife ---
+$boost=2,site=zillow.com
+$boost=2,site=realtor.com
+$boost=2,site=redfin.com
+$boost=2,site=nar.realtor
+$boost=2,site=hud.gov
+$boost=2,site=consumerfinance.gov
+
+! --- General reference ---
+$boost=3,site=wikipedia.org
+$boost=2,site=britannica.com
+$boost=2,site=arxiv.org
+$boost=2,site=scholar.google.com
+
+! --- Government and education ---
+$boost=3,site=usa.gov
+$boost=3,site=data.gov
+$boost=2,site=congress.gov
+$boost=2,site=whitehouse.gov
+$boost=2,site=loc.gov
+
+! --- Tech reference ---
+$boost=2,site=stackoverflow.com
+$boost=2,site=github.com
+$boost=2,site=developer.mozilla.org
+
+! --- UGC platforms (mild boost, quality evaluated by LLM at answer time) ---
+$boost=1,site=reddit.com
+$boost=1,site=youtube.com
