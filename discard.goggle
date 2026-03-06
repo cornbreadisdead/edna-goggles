@@ -6,7 +6,7 @@
 
 ! Sources: IFFY Index (iffy.news), JanaLasser/misinformation_domains, Quackwatch
 ! Based on Media Bias/Fact Check (MBFC) ratings
-! Total domains: 2045
+! Total domains: 2050
 ! Last updated: 2026-03-06
 
 $discard,site=100percentfedup.com
@@ -241,6 +241,7 @@ $discard,site=carm.org
 $discard,site=catholic.org
 $discard,site=causeur.fr
 $discard,site=cbn.com
+$discard,site=cbsnews.com
 $discard,site=cdareporter.com
 $discard,site=cdc.news
 $discard,site=cedarrapidstoday.com
@@ -523,6 +524,7 @@ $discard,site=expose-news.com
 $discard,site=extinction.news
 $discard,site=extraordinaryinfo.com
 $discard,site=fabiosa.com
+$discard,site=facebook.com
 $discard,site=factcheck.news
 $discard,site=factcheckingturkey.com
 $discard,site=facts.net
@@ -1828,6 +1830,7 @@ $discard,site=threeriversgazette.com
 $discard,site=thriveglobal.com
 $discard,site=thrivemovement.com
 $discard,site=thumbreporter.com
+$discard,site=tiktok.com
 $discard,site=tobacconewswire.com
 $discard,site=toddstarnes.com
 $discard,site=toledoreporter.com
@@ -1870,6 +1873,7 @@ $discard,site=tulsastandard.com
 $discard,site=tuscaloosaleader.com
 $discard,site=tuscarawasnews.com
 $discard,site=twisted.news
+$discard,site=twitter.com
 $discard,site=tworiversnews.org
 $discard,site=tyranny.news
 $discard,site=ukcolumn.org
@@ -2035,6 +2039,7 @@ $discard,site=worldviewweekend.com
 $discard,site=worldwidehealthy.com
 $discard,site=www1.cbn.com
 $discard,site=wyandottetimes.com
+$discard,site=x.com
 $discard,site=x22report.com
 $discard,site=xinhuanet.com
 $discard,site=yadkinvalleynews.com
