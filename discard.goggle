@@ -6,7 +6,7 @@
 
 ! Sources: IFFY Index (iffy.news), JanaLasser/misinformation_domains, Quackwatch
 ! Based on Media Bias/Fact Check (MBFC) ratings
-! Total domains: 2060
+! Total domains: 2061
 ! Last updated: 2026-03-06
 
 $discard,site=100percentfedup.com
@@ -1871,6 +1871,7 @@ $discard,site=truth11.com
 $discard,site=truthandaction.org
 $discard,site=truthinmedia.com
 $discard,site=truthmonitor.com
+$discard,site=truthsocial.com
 $discard,site=truthuncensored.net
 $discard,site=tsargrad.tv
 $discard,site=tucsonstandard.com
