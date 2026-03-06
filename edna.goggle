@@ -56,6 +56,10 @@ $boost=2,site=nc.gov
 $boost=2,site=charlottenc.gov
 $boost=2,site=huntersville.org
 
+! --- Local news ---
+$boost=2,site=charlotteobserver.com
+$boost=2,site=newsobserver.com
+
 ! --- Tech reference ---
 $boost=2,site=stackoverflow.com
 $boost=2,site=github.com
