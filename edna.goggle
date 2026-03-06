@@ -72,6 +72,21 @@ $boost=2,site=cbs17.com
 
 
 
+! --- Events and entertainment (Charlotte) ---
+$boost=2,site=axios.com
+$boost=2,site=charlottesgotalot.com
+$boost=2,site=blumenthalarts.org
+$boost=2,site=charlottecomedytheater.com
+
+! --- Events and entertainment (Raleigh/Triangle) ---
+$boost=2,site=indyweek.com
+$boost=2,site=thisisraleigh.com
+$boost=2,site=visitraleigh.com
+$boost=2,site=triangleonthecheap.com
+$boost=2,site=goodnightscomedy.com
+$boost=2,site=dpacnc.com
+$boost=2,site=raleighimprov.com
+
 ! =============================================
 ! DISCARD RULES — Unreliable sources removed
 ! =============================================
