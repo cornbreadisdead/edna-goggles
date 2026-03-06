@@ -56,14 +56,20 @@ $boost=2,site=nc.gov
 $boost=2,site=charlottenc.gov
 $boost=2,site=huntersville.org
 
-! --- Local news ---
+! --- Local news (Charlotte) ---
 $boost=2,site=charlotteobserver.com
-$boost=2,site=newsobserver.com
+$boost=2,site=wbtv.com
+$boost=2,site=wsoctv.com
+$boost=2,site=wcnc.com
+$boost=2,site=fox46.com
+$boost=2,site=wccbcharlotte.com
 
-! --- Tech reference ---
-$boost=2,site=stackoverflow.com
-$boost=2,site=github.com
-$boost=2,site=developer.mozilla.org
+! --- Local news (Raleigh) ---
+$boost=2,site=newsobserver.com
+$boost=2,site=wral.com
+$boost=2,site=abc11.com
+$boost=2,site=cbs17.com
+
 
 
 ! =============================================
