@@ -72,6 +72,16 @@ $boost=2,site=cbs17.com
 
 
 
+! --- Education (NC State) ---
+$boost=3,site=ncsu.edu
+
+! --- Real estate (NC) ---
+$boost=3,site=ncrec.gov
+$boost=2,site=nar.realtor
+$boost=2,site=zillow.com
+$boost=2,site=realtor.com
+$boost=2,site=redfin.com
+
 ! --- Events and entertainment (Charlotte) ---
 $boost=2,site=axios.com
 $boost=2,site=charlottesgotalot.com
