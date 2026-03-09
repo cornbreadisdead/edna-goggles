@@ -98,6 +98,13 @@ $boost=2,site=dpacnc.com
 $boost=2,site=raleighimprov.com
 
 ! =============================================
+! DOWNRANK RULES — Demoted but not removed
+! =============================================
+
+! --- UGC platforms: useful but shouldn't dominate results ---
+$downrank=1,site=reddit.com
+
+! =============================================
 ! DISCARD RULES — Unreliable sources removed
 ! =============================================
 
